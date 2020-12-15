@@ -12,7 +12,15 @@ header
 	width: 85%;
 	height: 350px;
 	margin: auto;
+	/*border: 2px solid red;*/
 	
+}
+.line_dark
+{
+	margin: auto;
+	width: 30px;
+	height: 3px;
+	background-color: #000;
 }
 .line
 {
@@ -78,6 +86,10 @@ header
 	/*border: 2px solid green;*/
 	display: flex;
 }
+.nav_link
+{
+	color: #000;
+}
 .nav_list
 {
 	margin: auto;
@@ -99,6 +111,7 @@ header
 {
 	background-color: #000;
 	color: #fff;
+	transition-duration: 0.2s;
 }
 
 /*-----------Sections-------------------*/
@@ -106,7 +119,7 @@ header
 .main_body
 {
 	padding: 40px;
-	width: 77%;
+	width: 78%;
 	height: 1100px;
 	margin: auto;
 	display: block;
@@ -377,4 +390,5 @@ footer a
 {
 	background-color: #CECECE;
 	color: #000;
+	transition-duration: 0.2s;
 }
