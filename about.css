@@ -1,0 +1,147 @@
+/*main_block*/
+
+#main
+{
+	height: 2000px;
+}
+.about_us
+{
+	width: 100%;
+	height: 550px;
+	background-color: #E2E2E2;
+	/*margin: 5px;*/
+
+}
+.about_us .header
+{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	font-weight: bold;
+	font: italic 93px "Dancing Script", cursive;
+}
+.about_dish
+{
+	width: auto;
+	height: 350px;
+	display: flex;
+}
+.about_dish .img
+{
+	width: 50%;
+	height: 100%;
+	/*border: 2px solid green;*/
+
+}
+.about_dish #img
+{
+	width: 100%;
+	height: 100%;
+	/*border: 2px solid red;*/
+}
+.about_dish .text
+{
+	width: 50%;
+	height: 100%;
+	/*border: 2px solid green;*/
+
+}
+
+.our_cooks
+{
+	/*border: 2px solid red;*/
+	width: 100%;
+	height: 500px;
+}
+.our_cooks .header
+{
+	width: 100%;
+	height: 100px;
+	font-weight: bold;
+	font: italic 63px "Dancing Script", cursive;
+	text-align: center;
+}
+.our_cooks .cooks
+{
+	/*border: 2px solid green;*/
+	width: 100%;
+	height: 400px;
+	display: flex;
+}
+.cooks figure
+{
+	width: auto;
+	height: 100%;
+	margin: auto;
+	/*border: 2px solid green;*/
+	text-align: center;
+}
+.testimonials
+{
+	width: 100%;
+	height: 500px;
+	/*border: 2px solid green;*/
+
+}
+.testimonials .header
+{
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font: italic 63px "Dancing Script", cursive;
+}
+.testimonials .img
+{
+	text-align: center;
+	font: 23px "Josefin Sans", cursive;
+	width: 100%;
+	height: 200px;
+	/*border: 2px solid green;*/
+
+}
+.testimonials .img figure .img_block
+{
+	margin: auto;
+	width: 112px;
+	height: auto;
+	/*border: 2px solid green;*/
+
+}
+.testimonials .img figure img
+{
+	border-radius: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*video_block*/
+
+.about_us_video
+{
+	width: 100%;
+	/*border: 2px solid red;*/
+	height: 370px;
+}
+.about_us_video .header
+{
+	font: italic 63px "Dancing Script", cursive;
+	text-align: center;
+	width: 100%;
+	/*border: 2px solid green;*/
+	height: 100px;
+}
+.about_us_video .video_block
+{
+	height: 270px;
+	width: 100%;
+	/*border: 2px solid green;*/
+	display: flex;
+}
+.about_us_video .video_block video
+{
+	width: auto;
+	height: 100%;
+	margin: auto;
+}
+

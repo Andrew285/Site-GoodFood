@@ -1,0 +1,200 @@
+
+
+/*------------------Price_Block-------------------*/
+#menu
+{
+	height: 2300px;
+}
+.prices_block
+{
+	width: 100%;
+	height: 950px;
+	/*border: 2px solid red;*/
+}
+.prices_block .header
+{
+	width: 100%;
+	height: 100px;
+	/*border: 2px solid green;*/
+	text-align: center;
+	font: italic 93px "Dancing Script", cursive;
+
+}
+.img_prices
+{
+	width: 100%;
+	height: 270px;
+	/*border: 2px solid purple;*/
+	display: flex;
+}
+.img_prices .img_item
+{
+	margin: auto;
+	width: 33%;
+	height: 100%;
+	/*border: 2px solid red;*/
+	display: flex;
+	text-align: center;
+}
+.img_prices .img_item img
+{
+	margin: auto;
+	width: 90%;
+	height: 90%;
+}
+.img_prices a
+{
+	display: flex;
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: bold;
+	color: #000;
+	border: 2px solid #B5ABAB;
+}
+.img_prices a:hover span
+{
+	opacity: 1;
+	transition-duration: 0.3s;
+
+}
+/*.img_prices a:hover div
+{
+	transition-duration: 0.3s;
+	border: 2px solid #B5ABAB;
+}*/
+.img_prices a .img
+{ 
+
+	display: flex;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+.img_prices a #img1
+{
+	background-image: url("images/menu-1.jpg");
+}
+.img_prices a #img2
+{
+	background-image: url("images/menu-2.jpg");
+}
+.img_prices a #img3
+{
+	background-image: url("images/menu-3.jpg");
+}
+.img_prices a #img4
+{
+	background-image: url("images/menu-4.jpg");
+}
+.img_prices a #img5
+{
+	background-image: url("images/menu-5.jpg");
+}
+.img_prices a #img6
+{
+	background-image: url("images/menu-6.jpg");
+}
+.img_prices a #img7
+{
+	background-image: url("images/menu-7.jpg");
+}
+.img_prices a #img8
+{
+	background-image: url("images/menu-8.jpg");
+}
+.img_prices a #img9
+{
+	background-image: url("images/menu-9.jpg");
+}
+
+.img_prices a span
+{
+	margin: auto;
+	opacity: 0;
+}
+
+/*------------section_pasta-----------------*/
+
+.pasta
+{
+	width: 100%;
+	height: 700px;
+	/*border: 2px solid purple;*/
+}
+.pasta_header
+{
+	text-align: center;
+	height: auto;
+	/*border: 2px solid purple;*/
+
+}
+
+.pasta_header h1
+{
+	font: italic 67px "Dancing Script", cursive;
+}
+
+.groups
+{
+	display: flex;
+	width: 100%;
+	height: 450px;
+	/*border: 2px solid green;*/
+
+}
+.groups .group
+{
+	margin: auto;
+	width: 45%;
+	height: 100%;
+}
+.group .img
+{
+	/*border: 2px solid green;*/
+
+	height: 55%;
+	width: 100%;
+
+}
+.group .img img
+{
+	width: 100%;
+	height: 100%;
+}
+.group .text
+{
+	text-align: center;
+	height: 45%;
+	width: 100%;
+}
+
+/*---------------Table_prices-------------------*/
+
+.table_price
+{
+	width: 100%;
+	height: 300px;
+	/*border: 2px solid green;*/
+
+}
+table
+{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #000;
+
+}
+td
+{
+ 	font-family: 'Russo One', sans-serif;
+
+}
+th
+{
+ 	/*font: italic 10px "Josefin Sans" cursive;*/
+ 	font-size: 20px;
+ 	font-family: 'Russo One', sans-serif;
+}
