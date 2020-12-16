@@ -60,11 +60,12 @@
 	transition-duration: 0.3s;
 
 }
-/*.img_prices a:hover div
+.img_prices a:hover
 {
 	transition-duration: 0.3s;
-	border: 2px solid #B5ABAB;
-}*/
+	
+	border: 2px solid red;
+}
 .img_prices a .img
 { 
 
