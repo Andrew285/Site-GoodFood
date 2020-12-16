@@ -2,7 +2,7 @@
 
 #main
 {
-	height: 2000px;
+	height: 2200px;
 }
 .about_us
 {
@@ -145,3 +145,29 @@
 	margin: auto;
 }
 
+/*------------Podcast_styles------------*/
+
+.podcast
+{
+	width: 100%;
+	height: 200px;
+}
+.podcast .header
+{
+	margin-top: 40px;
+	text-align: center;
+	font: italic 63px "Dancing Script", cursive;
+	height: 70px;
+	/*border: 2px solid green;*/
+
+}
+.podcast .audio
+{
+	display: flex;
+	width: 100%;
+	height: 150px;
+}
+.podcast .audio audio
+{
+	margin: auto;
+}
