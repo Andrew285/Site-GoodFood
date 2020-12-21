@@ -4,7 +4,6 @@
 {
 	width: 100%;
 	height: 400px;
-	/*border: 1px solid blue;*/
 }
 .map
 {
@@ -16,7 +15,6 @@
 
 .input_block 
 {
-	/*border: 1px solid blue;*/
 	width: 100%;
 	height: 600px;
 	background-color: #E2E2E2;
@@ -24,7 +22,6 @@
 .input_block .header
 {
 	margin-top: 20px;
-	/*border: 1px solid blue;*/
 	width: 100%;
 	height: 100px;
 	text-align: center;
@@ -33,7 +30,6 @@
 }
 .input_block .form
 {
-	/*border: 1px solid blue;*/
 	width: 100%;
 	height: 500px;
 
@@ -43,29 +39,22 @@
 	display: flex;
 	width: 100%;
 	height: 40px;
-	/*border: 1px solid blue;*/
-
 }
 .name_email_block .name_email
 {
 	margin: auto;
 	width: 40%;
 	height: 100%;
-	/*border: 1px solid blue;*/
-
 }
 .name_email .input
 {
 	width: 100%;
 	height: 90%;
-	/*border: 1px solid blue;*/
 }
 .main_area
 {
-	/*border: 1px solid blue;*/
 	width: 100%;
 	height: 460px;
-
 }
 .sex
 {
@@ -77,7 +66,6 @@
 {
 	margin: auto;
 	width: 30%;
-	/*border: 1px solid blue;*/
 	font-size: 20px;
 	display: flex;
 
@@ -90,7 +78,6 @@
 {
 	width: 100%;
 	height: 40px;
-	/*border: 1px solid blue;*/
 	display: flex;
 }
 .subject input
@@ -104,8 +91,6 @@
 	width: 100%;
 	height: 300px;
 	display: flex;
-	/*border: 1px solid blue;*/
-
 }
 textarea
 {

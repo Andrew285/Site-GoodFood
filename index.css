@@ -6,22 +6,15 @@
 body
 {
 	background-image: url("images/bg.jpg");
+	background-attachment: fixed;
 }
 header
 {
 	width: 85%;
 	height: 350px;
 	margin: auto;
-	/*border: 2px solid red;*/
-	
 }
-.line_dark
-{
-	margin: auto;
-	width: 30px;
-	height: 3px;
-	background-color: #000;
-}
+
 .line
 {
 	margin: auto;
@@ -29,29 +22,30 @@ header
 	height: 3px;
 	background-color: #fff;
 }
+.#dark_line
+{
+	margin: auto;
+	width: 30px;
+	height: 3px;
+	background-color: #000;
+}
 .header
 {
 	width: 100%;
 	height: 82%;
-	/*border: 2px solid red;*/
-
-	/*background-size: 0px 0px;*/
 }
 .header_logo
 {
 	width: 100%;
 	height: 100%;
 	display: flex;
-	/*flex-direction: column;*/
 	justify-content: center;
-	/*border: 2px solid green;*/
 
 }
 .logo_block
 {
 	width: auto;
 	height: 70px;
-	/*border: 2px solid green;*/
 	margin-top: auto;
 	margin-bottom: auto;
 
@@ -64,7 +58,6 @@ header
 }
 .span_below_logo
 {
-	/*border: 2px solid green;*/
 	margin-bottom: 10px;
 	color: #fff;
 	text-align: center;
@@ -83,7 +76,6 @@ header
 	width: 100%;
 	height: 100%;
 	background-color: white;
-	/*border: 2px solid green;*/
 	display: flex;
 }
 .nav_link
@@ -96,12 +88,9 @@ header
 	width: auto;
 	height:auto;
 	list-style-type: none;
-	/*/*display: block;*/
-	/*border: 2px solid green;*/
 }
 .nav_list_item
 {
-	/*border: 2px solid green;*/
 	display: inline-block;
 	margin: 0px 5px;
 	font-size: 20px;
@@ -142,7 +131,6 @@ header
 }
 .content_block .text h1
 {
-	/*border: 2px solid red;*/
 	font: italic 50px "Dancing Script", cursive;
 	font-weight: bold;
 }
@@ -156,29 +144,22 @@ header
 	width: 50%;
 	height: 100%;
 	margin: auto;
-	/*border: 2px solid red;*/
 
 }
 .content_block .img img
 {
 	width: 100%;
 	height: 100%;
-	/*border: 2px solid red;*/
-	
 }
 
 .content_block .text
 {
 	width: 50%;
 	height: 100%;
-	/*border: 2px solid red;*/
-
 }
 .content_block .text h1, h2, p
 {
 	text-align: center;
-	/*border: 2px solid red;*/
-
 }
 #content_block2
 {
@@ -192,13 +173,9 @@ header
 	margin: auto;
 	width: 75%;
 	height: 350px;
-	/*border: 2px solid green;*/
-
 }
 .latest_event_block
 {
-	/*border: 2px solid red;*/
-	/*padding-bottom: 150px;*/
 	width: 100%;
 	height: 100%;
 
@@ -208,15 +185,11 @@ header
 	display: flex;
 	width: 100%;
 	background-color: #fff;
-	/*border: 2px solid green;*/
-
 }
 .latest_event_block .inner_block .img
 {
 	width: 50%;
 	height: 100%;
-	/*border: 2px solid green;*/
-
 }
 .latest_event_block .inner_block .img img
 {
@@ -231,8 +204,6 @@ header
 .latest_event_block .inner_block .text h1, h2, p
 {
 	text-align: center;
-	/*border: 2px solid red;*/
-
 }
 .latest_event_block .inner_block .text h2
 {
@@ -243,17 +214,13 @@ header
 {
 	width: 100%;
 	height: 30%;
-	/*border: 2px solid green;*/
 	display: flex;
-	/*justify-content: center;*/
 }
 .latest_event_block .span_block .span
 {
 	margin: auto;
 	width: auto;
 	height: auto;
-	/*border: 2px solid green;*/
-
 }
 .latest_event_block .span_block span
 {
@@ -269,19 +236,16 @@ footer
 	padding-top: 120px;
 	width: 100%;
 	height: 120px;
-	/*border: 2px solid green;*/
 	margin-bottom: 0px;
 
 }
 footer a
 {
 	text-decoration: none;
-	/*color: #6664EB;*/
 	color: #E24560;
 }
 .footer
 {
-		/*border: 2px solid green;*/
 		background-color: #fff;
 		width: 100%;
 		height: 100%;
@@ -293,9 +257,7 @@ footer a
 {
 	width: 150px;
 	height: 100%;
-	/*border: 2px solid red;*/
 	display: flex;
-	/*margin: auto;*/
 	justify-content: center;
 
 }
@@ -303,14 +265,11 @@ footer a
 {
 	width: auto;
 	height: 100%;
-	/*border: 2px solid red;*/
 	display: flex;
-	/*margin: auto;*/
 	justify-content: center;
 }
 .footer .copyright_block
 {
-	/*border: 2px solid green;*/
 	height: 50px;
 	display: flex;
 	margin: auto;
@@ -325,7 +284,6 @@ footer a
 	height: 60px;
 	display: flex;
 	margin: auto;
-	/*border: 2px solid red;*/
 
 }
 .footer .social
@@ -335,10 +293,16 @@ footer a
 	height: 45px;
 	width: 40px;
 	background-color: #E24560;
-	/*border: 2px solid green;*/
+	border: 2px solid #000;
 	border-radius: 18px;
 	
 }
+.footer .social:hover
+{
+	
+	background-color: #fff;
+}
+
 .footer .social img
 {
 	margin: auto;
@@ -349,14 +313,11 @@ footer a
 {
 	width: 250px;
 	height: 100%;
-	/*border: 2px solid red;*/
 	display: flex;
-	/*margin: auto;*/
 	justify-content: center;
 }
 .footer .privacy_block
 {
-	/*border: 2px solid green;*/
 	width: 100%;
 	margin: auto;
 	display: flex;
@@ -367,8 +328,11 @@ footer a
 	width: auto;
 	height: 100%;
 	margin: auto;
-	/*border: 2px solid red;*/
 
+}
+.footer .privacy_block .privacy_span:hover
+{
+	text-decoration: underline;
 }
 
 /*---------button_read_more styles---------------*/
@@ -385,6 +349,7 @@ footer a
 	color: #fff;
 	border-radius: 10px;
 	margin: auto;
+	border: 1px solid #000;
 }
 .but_read_more:hover
 {

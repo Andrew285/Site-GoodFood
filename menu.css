@@ -1,6 +1,6 @@
 
 
-/*------------------Price_Block-------------------*/
+/*------------------PRICE_BLOCK-------------------*/
 #menu
 {
 	height: 2300px;
@@ -9,13 +9,11 @@
 {
 	width: 100%;
 	height: 950px;
-	/*border: 2px solid red;*/
 }
 .prices_block .header
 {
 	width: 100%;
 	height: 100px;
-	/*border: 2px solid green;*/
 	text-align: center;
 	font: italic 93px "Dancing Script", cursive;
 
@@ -24,7 +22,6 @@
 {
 	width: 100%;
 	height: 270px;
-	/*border: 2px solid purple;*/
 	display: flex;
 }
 .img_prices .img_item
@@ -32,7 +29,6 @@
 	margin: auto;
 	width: 33%;
 	height: 100%;
-	/*border: 2px solid red;*/
 	display: flex;
 	text-align: center;
 }
@@ -74,6 +70,9 @@
 	width: 100%;
 	height: 100%;
 }
+
+/*-------------MENU-IMG---------------------*/
+
 .img_prices a #img1
 {
 	background-image: url("images/menu-1.jpg");
@@ -117,20 +116,17 @@
 	opacity: 0;
 }
 
-/*------------section_pasta-----------------*/
+/*------------SECTION_PASTA-----------------*/
 
 .pasta
 {
 	width: 100%;
 	height: 700px;
-	/*border: 2px solid purple;*/
 }
 .pasta_header
 {
 	text-align: center;
 	height: auto;
-	/*border: 2px solid purple;*/
-
 }
 
 .pasta_header h1
@@ -143,8 +139,6 @@
 	display: flex;
 	width: 100%;
 	height: 450px;
-	/*border: 2px solid green;*/
-
 }
 .groups .group
 {
@@ -154,8 +148,6 @@
 }
 .group .img
 {
-	/*border: 2px solid green;*/
-
 	height: 55%;
 	width: 100%;
 
@@ -172,14 +164,12 @@
 	width: 100%;
 }
 
-/*---------------Table_prices-------------------*/
+/*---------------TABLE-------------------*/
 
 .table_price
 {
 	width: 100%;
 	height: 300px;
-	/*border: 2px solid green;*/
-
 }
 table
 {
@@ -191,11 +181,11 @@ table
 td
 {
  	font-family: 'Russo One', sans-serif;
-
+ 	text-align: center;
 }
 th
 {
- 	/*font: italic 10px "Josefin Sans" cursive;*/
+	background-color: #DDDDDD;
  	font-size: 20px;
  	font-family: 'Russo One', sans-serif;
 }
